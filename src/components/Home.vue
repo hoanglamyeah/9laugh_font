@@ -156,8 +156,10 @@
     .title {
       margin-bottom: 0rem;
       a {
-        color: #3b3b3b;
-        font-size: 26px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.258;
+        color: #2E4453;
       }
     }
     .action {

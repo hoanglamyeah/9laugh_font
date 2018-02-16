@@ -124,6 +124,8 @@
         a {
           color: #ffffff;
           padding: 7px 15px;
+          font-size: 14px;
+          font-weight: bold;
         }
       }
 
@@ -143,7 +145,7 @@
   }
 
   .top-bar, .top-bar ul {
-    background-color: #3C5A98;
+    background-color: #0085be;
   }
 
   li a.menu-button {

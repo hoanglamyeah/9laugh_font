@@ -1,8 +1,8 @@
 // Source Sans Pro font
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Merriweather|Source+Sans+Pro:300,400,600');
-
 // Init Foundation
 @import '~foundation-sites/scss/foundation';
+
 @include foundation-everything(true);
 @include foundation-flex-grid;
 @include foundation-flex-classes;
@@ -12,15 +12,23 @@
 //@import '~motion-ui/dist/motion-ui';
 body {
   font: normal 16px/24px "Merriweather", serif;
+  color: #3D596E;
+  line-height: 1.7em;
 }
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    font-family: "Merriweather", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Merriweather", Helvetica, Roboto, Arial, sans-serif;
 }
-section {margin-bottom: 25px}
+
+section {
+  margin-bottom: 25px
+}
+
 .button.small {
-    font-size: 0.75rem;
-    padding: 9px;
+  font-size: 0.75rem;
+  padding: 9px;
 }
+
 .vote-button {
   margin-right: 10px;
 }
